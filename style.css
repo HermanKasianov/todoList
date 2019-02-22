@@ -1,0 +1,65 @@
+.headStyle {
+    display: flex;
+    justify-content: center;
+}
+
+.inputBlock {
+    display: flex;
+    justify-content: center;
+}
+
+#in {
+    width: 45%;
+    font-size: 16pt;
+    border-radius: 3px;
+    outline:none;
+    border-color: blue;
+}
+
+#add {
+    width: 10%;
+    border-radius: 5px;
+    outline:none;
+    font-size: 14pt;
+    background-color: aqua;
+}
+
+#out {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#done {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+* {
+    background-color: peachpuff
+}
+
+li {
+    font-size: 18pt;
+    list-style-image: url(liStyle2.png); 
+}
+
+#taskDiv {
+    padding: 3px;
+    margin: 2px;
+}
+
+#closeBtn {
+    border: 1px solid black;
+    padding: 3px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 13pt;
+    background-color: red;
+}
+
+ul li.checked {
+    text-decoration: line-through;
+}
